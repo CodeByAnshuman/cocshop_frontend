@@ -3,9 +3,9 @@
 import type React from "react"
 import { Inter } from "next/font/google"
 import "./globals.css"
-import Header from "@/components/header"
-import { CartProvider } from "@/lib/cart-context"
-import { AuthProvider } from "@/lib/auth-context"
+import Header from "../components/header" // {/* Updated import */}
+import { CartProvider } from "../lib/cart-context" // {/* Updated import */}
+import { AuthProvider } from "../lib/auth-context"  // {/* Updated import */}
 import { usePathname } from "next/navigation"
 
 const inter = Inter({ subsets: ["latin"] })

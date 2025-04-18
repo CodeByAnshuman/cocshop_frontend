@@ -2,8 +2,8 @@
 
 import { useEffect } from "react"
 import { useRouter } from "next/navigation"
-import { useAuth } from "@/lib/auth-context"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { useAuth } from "../../lib/auth-context"
+import { Card, CardContent, CardHeader, CardTitle } from "../../components/ui/card"
 
 export default function ProtectedPage() {
   const { user, isLoading } = useAuth()

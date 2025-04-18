@@ -1,8 +1,6 @@
-
-
-import ProductList from "@/components/product-list"
-import RecommendationSection from "@/components/recommendation-section"
-import { getProducts } from "@/lib/data"
+import ProductList from "../components/product-list"
+import RecommendationSection from "../components/recommendation-section"
+import { getProducts } from "../lib/data"
 
 export default async function Home() {
   const products = await getProducts()
